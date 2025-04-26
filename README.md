@@ -1,6 +1,6 @@
-# 🚀 Nome do Projeto
+# 🚀 Equipe Kosmos Rocketry
 
-> Uma frase de efeito ou descrição curta, clara e impactante.
+> "Um pequeno passo para o homem, mas um grande salto para a humanidade!".
 
 ![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)
 ![License](https://img.shields.io/github/license/seuusuario/seuprojeto)
@@ -13,21 +13,6 @@
 <div align="center">
   <img src="https://your-demo-image-or-gif.com/demo.gif" alt="Demonstração do projeto" width="600"/>
 </div>
-
----
-
-## 📚 Sumário
-
-- [Sobre](#sobre)
-- [Funcionalidades](#funcionalidades)
-- [Tecnologias](#tecnologias)
-- [Instalação](#instalação)
-- [Como Usar](#como-usar)
-- [Contribuindo](#contribuindo)
-- [Licença](#licença)
-- [Autor](#autor)
-
----
 
 ## 🧠 Sobre
 
@@ -61,6 +46,7 @@ Exemplo:
 ## 🧪 Instalação
 
 ```bash
+
 # Clone o repositório
 git clone https://github.com/seuusuario/seuprojeto
 
@@ -73,7 +59,12 @@ npm install
 # Rode o projeto
 npm run dev
 
-💡 Como Usar
+```
+
+# 💡 Como Usar
+
+```bash
+
 Crie uma conta na OpenAI (ou outro serviço necessário)
 
 Configure as variáveis .env com suas chaves
@@ -81,17 +72,23 @@ Configure as variáveis .env com suas chaves
 Execute localmente ou deploye em Vercel/Railway
 
 Use a interface ou conecte seu front-end via API
+```
 
-🤝 Contribuindo
+## 🤝 Contribuindo
+```bash
 Contribuições são sempre bem-vindas!
 Veja o CONTRIBUTING.md para mais informações.
-
-📄 Licença
+```
+## 📄 Licença
+```bash
 Este projeto está sob a licença MIT — veja o arquivo LICENSE para detalhes.
-
-👤 Autor
+```
+## 👤 Autor
+```bash
 Desenvolvido com ❤️ por Seu Nome.
 Me adicione no LinkedIn ou Twitter!
-
-⭐ Dê uma estrela
+```
+## ⭐ Dê uma estrela
+```bash
 Se você curtiu o projeto, deixe uma ⭐ e compartilhe!
+```
