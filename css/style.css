@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    scroll-behavior: smooth;
+}
+:root{
+    --font-family:"Poppins", sans-serif;
+    --color-body:#111111;
+    --color-title:#fff;
+    --color-text:#b6b6b6;
+    --color-descriptions:#ffffff79;
+    --color-textDestaq:#d45858;
+    /* MOBILE */
+        --title:1.2rem;
+        --text:1rem;
+    /* DESKTOP */
+        --title-d:2rem;
+        --text-d:1rem;
+}
