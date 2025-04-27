@@ -9,7 +9,7 @@
     --color-title:#fff;
     --color-text:#efefef;
     --color-descriptions:#ffffff79;
-    --color-textDestaq:#d45858;
+    --color-textDestaq:#df2525;
 
     --colorHeader:var(--color-body);
 
@@ -39,6 +39,7 @@ header{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    z-index: 2;
 }
     .logo{
         width: 100%;
@@ -85,7 +86,7 @@ header{
         }
         .donateBtn:hover{
             transform: scale(.98);
-            background-color: #d45858d6;
+            /* background-color: #d45858d6; */
         }
 
 .closeMenu, .openMenu{
@@ -112,12 +113,17 @@ main{
 
     /* HEADER -> MENU */
 @media screen and (max-width:800px) {
+    header{
+        z-index: 2;
+        background-color: var(--color-body);
+    }
     .headerContainer{
         padding: 1rem 2rem;
         justify-content: space-between;
+        z-index: 2;
     }
     .headerContainer .logo{
-        max-width: 50px;
+        max-width: 60px;
     }
     .menuList{
         position: absolute;
@@ -126,17 +132,19 @@ main{
         transition: .3s ease-in-out;
 
         width: 100%;
-        background-color: var(--color-body);
-        left: 0;
-        top: -50vh;
-        padding: 4rem 1rem 2rem 1rem;
+        background-color: #0d0d0d;
+        left: -100%;
+        top: 12.17vh;
+        padding: 2rem 1rem;
     }
     .open{
-        top: 0;
+        left: 0;
     }
-    .menuList li a{
+    .menuList .itemMenu{
         display: flex;
-        background-color: rgba(255, 255, 255, 0.076);
+        align-items: center;
+        gap: .5rem;
+        background-color: rgba(255, 255, 255, 0.009);
         border-radius: .1rem;
         margin:.2rem 0;
         padding: .5rem 1rem;
@@ -147,10 +155,14 @@ main{
     .donateBtnMenuList {
         display: flex;
         margin-top: 1rem;
+        gap: .5rem;
     }
     .donateBtnMenuList .configABtn{
         border-radius: .1rem;
     }
+        .donateBtnMenuList .configABtn:last-child{
+            background-color: #2a2a2a;
+        }
         .closeMenu{
             position: absolute;
             left: 5%;
@@ -164,5 +176,29 @@ main{
     }
     .closeMenu, .openMenu{
         display: unset;
+    }
+
+    .menuList hr{
+        border: 1px solid var(--color-textDestaq);
+        margin: 1rem 0;
+    }
+
+    .redes legend{
+        color: var(--color-descriptions);
+        font-size: .8rem;
+        text-align: center;
+    }
+    .redes ul{
+        background-color: #ffffff14;
+        border-radius: .3rem;
+        padding: .5rem 1rem;
+        /* width: 100%; */
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        gap: 2rem;
+    }
+    .redes ul li i{
+        font-size: 1rem;
     }
 }
