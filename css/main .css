@@ -79,37 +79,6 @@ main{
     height: 100%;
     object-fit: cover;
 }
-
-
-@media screen and (max-width:800px) {
-    .hero{
-        height: 80dvh;
-    }
-    .logoGroup{
-        max-width: 150px;
-        /* margin-bottom: 1rem; */
-    }
-    .btnGeneral a{
-        width: 100%;
-    }
-    .btnGeneral{
-        justify-content: center;
-    }
-    .heroTextContent{
-        text-align: center;
-        padding: 0 1rem;
-    }
-    .heroTextContent h1{
-        /* max-width: 200px; */
-        font-size: 1.4rem;
-        line-height: 2rem;
-        /* margin: .5rem 0; */
-    }
-    .tableNews{
-        flex-wrap: wrap;
-    }
-}
-
 /* section{
     height: 100dvh;
 } */
@@ -129,7 +98,7 @@ main{
     margin:  0 auto;
     display: flex;
     justify-content: center;
-    align-items: baseline;
+    align-items: start;
     gap: 1rem;
 }
 
@@ -167,6 +136,7 @@ main{
         width: 100%;
         height: 100%;
         object-fit: cover;
+        border-radius: .5rem;
     }
 
 .newObj-Elements{
@@ -192,4 +162,77 @@ main{
 .newObj-title{
     font-size: 1.5rem;
     font-weight: 400;
+}
+
+
+.tableScrollProjects{
+    /* background-color: #ccc; */
+}
+.projectsBox{
+    background-color: rgba(255, 255, 255, 0.042);
+    border: 1px solid #ffffff1b;
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    padding: 1rem;
+    border-radius: .5rem;
+}
+.projectsBox-image{
+    width: 100%;
+    /* max-width: 300px; */
+    height: 200px;
+    background-color: rgba(28, 28, 28, 0.805);
+}
+    .projectsBox-image img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+.prjectBox-content{
+    padding: 1rem;
+}
+.prjectBox-content h3{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+.prjectBox-content p{
+    font-size: .8rem;
+    color: var(--color-descriptions);
+}
+
+
+@media screen and (max-width:800px) {
+    .hero{
+        height: 80dvh;
+    }
+    .logoGroup{
+        max-width: 150px;
+        /* margin-bottom: 1rem; */
+    }
+    .btnGeneral a{
+        width: 100%;
+    }
+    .btnGeneral{
+        justify-content: center;
+    }
+    .heroTextContent{
+        text-align: center;
+        padding: 0 1rem;
+    }
+    .heroTextContent h1{
+        /* max-width: 200px; */
+        font-size: 1.4rem;
+        line-height: 2rem;
+        /* margin: .5rem 0; */
+    }
+    .tableNews{
+        flex-wrap: wrap;
+    }
+    .newObj{
+        max-width: unset;
+        width: 100%;
+    }
 }
