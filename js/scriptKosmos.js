@@ -27,3 +27,6 @@ const adicaoFctCloseMenu = () => {
     })
 }
 openMenuBtn.addEventListener('click', adicaoFctCloseMenu);
+
+
+// CRIAR FUNCTION QUE USA O TOGGLE
